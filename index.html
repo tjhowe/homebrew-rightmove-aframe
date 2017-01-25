@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Rightmove x HOMEBREW</title>
+    <meta name="description" content="Videosphere - A-Frame">
+    <script src="aframe.js"></script>
+    <script src="aframe-extras.min.js"></script>
+</head>
+
+<body>
+    <a-scene>
+        <a-assets>
+            <video id="RightMove1" autoplay loop="true" src="https://player.vimeo.com/external/142995861.hd.mp4?s=cd344706100866a3436ea92ef0f48dfcfe28c4af&profile_id=113">
+            <video id="RightMove2" autoplay loop="true" src="https://player.vimeo.com/external/142995859.sd.mp4?s=b7b8eb3da65b9b4a1c0830eae9cc92b0557ae420&profile_id=112">
+            <video id="RightMove3" autoplay loop="true" src="https://player.vimeo.com/external/142995853.sd.mp4?s=13b028b42ba0968137ca9c653e355a8f6638333a&profile_id=112">
+            <video id="RightMove4" autoplay loop="true" src="https://player.vimeo.com/external/142878108.sd.mp4?s=9189a74cc6e46c0e9676bce74ccb2e214146bd0e&profile_id=112">
+            <video id="RightMove5" autoplay loop="true" src="https://player.vimeo.com/external/142995857.sd.mp4?s=b086892b87c212ba66662368b833c16cf454fb3d&profile_id=112">
+            <img id="my-image" src="/images/logo.png">
+        </a-assets>
+        <a-image src="#my-image"></a-image>
+        <a-video src="#RightMove1" width="16" height="9" position="-35 0 -7.5" rotation="0 50 0"></a-video>
+        <a-video src="#RightMove2" width="16" height="9" position="-20 0 -20" rotation="0 30 0"></a-video>
+        <a-video src="#RightMove3" width="16" height="9" position="0 0 -24"></a-video>
+        <a-video src="#RightMove4" width="16" height="9" position="20 0 -20" rotation="0 -30 0"></a-video>
+        <a-video src="#RightMove5" width="16" height="9" position="35 0 -7.5" rotation="0 -50 0"></a-video>
+    </a-scene>
+</body>
+
+</html>
